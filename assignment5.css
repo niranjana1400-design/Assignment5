@@ -1,0 +1,51 @@
+/* General Styles */
+body {
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(3, 14, 237, 0.6), rgba(223, 6, 183, 0.6)), url('https://thumbs.dreamstime.com/b/minimalist-web-developer-logo-design-house-shaped-symbol-elegant-modern-shape-381269294.jpg') center/cover no-repeat;
+  height: 100vh;
+}
+
+
+
+/* Skill Boxes */
+.skill-box {
+  background: rgb(47, 224, 233);
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.skill-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(27, 1, 1, 0.1);
+}
+
+/* Cards */
+.card:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease;
+}
+
+/* Navbar */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+/* ===== RESPONSIVE DESIGN ===== */
+@media (max-width: 768px-1024px)
+{
+  .about-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  }
+
+  
+/* Footer */
+footer {
+  font-size:0.9rem;
+}
+
+ 
